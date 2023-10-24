@@ -6,7 +6,7 @@ body
 }
 .main
 {
- background-color: whitesmoke;
+/* background-color: whitesmoke;*/
 padding: 20px;
   
 height: 850px;
@@ -74,7 +74,7 @@ line-height: normal;
   height:63px;
   color:#CF2F2F;
 
-  font-family: Poppins;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 font-size: 24px;
 font-style: normal;
 line-height: normal;
@@ -444,4 +444,129 @@ margin-top: 100px;
 }
 .icon1{
   padding-left: 8px;
+}
+/*-------------FOOTER------------------------*/
+.footer{
+  display: flex;
+  flex-direction: row;
+  height: 550px;
+  width:1100px;
+  margin-left: 170px;
+  text-decoration: none;
+}
+.link1{
+  width:25%;
+  /*background-color: #874209;*/
+  display: flex;
+  flex-direction: column;
+  /*margin-top: 200px;*/
+}
+.footer  a{
+text-decoration: none;
+  color: #000;
+}
+.footer-about{
+  color: #000;
+
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.link2{
+  width:25%;
+  /*background-color: #1a471a;*/
+  display: flex;
+  flex-direction: column;
+  /*margin-top: 200px;*/
+}
+.form{
+  width: 50%;
+  /*background-color: blue;*/
+  display: flex;
+  flex-direction: column;
+ margin-bottom: 130px;
+}
+#name{
+  height: 30px;
+  padding-bottom: 8px;
+
+}
+
+#email{
+  height: 30px;
+}
+
+#message{
+  height: 100px;
+
+  padding-bottom:50px;
+  display: flex;
+}
+
+
+/*------------NFT-------------------*/
+
+.container{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  margin-right: 200px;
+  margin-top: 60px;
+}
+.section1{
+  width:33%;
+  /*background-color: #874209;*/
+}
+.p-nft{
+
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.section1 .nft-color{
+  color:#1a471a;
+}
+.nft-paragraph{
+  color: #000;
+
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.nft-button{
+  background-color: #1a471a;
+  border-radius: 9px;
+  width:163px;
+  height:63px;
+  color:#CF2F2F;
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 24px;
+font-style: normal;
+line-height: normal;
+}
+.pictures-nft{
+  width: 60%;
+/* background-color: #1a471a;*/
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+.nft-pic1{
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.nft-pic{
+  width:220px;
+  height: 270px;
 }
